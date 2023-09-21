@@ -17,8 +17,12 @@ public class Fruits {
         System.out.println("bananas: " + bananas);
 
         System.out.println("i sold some apples - 20 apples sold");
-        apples = 30;
-        System.out.println("Apples after i sold");
+        apples = 30; // reassigning apples to have value of 25
+        System.out.println("Apples after i sold: " + apples);
 
+        int price = 15;
+
+        //  System.out.println("The price of my 25 apples is $20"); hard coded
+        System.out.println("The price of my " + apples  + " apples is $" + price);
     }
 }

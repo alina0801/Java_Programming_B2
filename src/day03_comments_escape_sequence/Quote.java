@@ -19,5 +19,7 @@ public class Quote {
 
         System.out.println("abc\\\\def");
 
+        System.out.println("abc/def");
+
     }
 }

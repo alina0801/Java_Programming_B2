@@ -17,20 +17,26 @@ public class CharExample {
 
         System.out.println(letterOne + letterTwo); // 97 + 90 --> 187
 
-        char letterThreee = 65;
-        System.out.println(letterThreee); // char letterFour = '65' invalid because there are two characters
-        System.out.println(letterOne + letterTwo + letterThreee);
+        char letterThree = 65;
+        System.out.println(letterThree);
 
-        System.out.println(letterOne + "" + letterTwo + "" + letterThreee);
+        //char letterFour = '65'; // this is invalid because there are two characters
 
-        // concatenation
-        System.out.println("chars : " + letterOne + letterTwo + letterThreee);
+        System.out.println(letterOne + letterTwo + letterThree + numberOne + specialOne); //97 + 90 + 65 + 57 + 36
 
-        //rule : concatenation starts from first string anything after first string is concatenated
-        System.out.println(letterOne + letterTwo + "chars: " + letterThreee + numberOne);
+        // Concatenation
+        System.out.println(letterOne + " " + letterTwo + " " + letterThree + " " + numberOne + " " + specialOne);
 
-        //concatenation
-        System.out.println(letterOne + "chars: " + letterThreee + numberOne + "chars: " + letterOne + letterTwo);
+        // Concatenation
+        System.out.println("chars: " + letterOne +  letterTwo + letterThree + numberOne + specialOne);
+
+
+        // RULE: Concatenation starts from FIRST String. Anything after FIRST String is concatenated
+        System.out.println(letterOne +  letterTwo + "chars: " + letterThree + numberOne + specialOne);
+
+        // Concatenation
+        System.out.println(letterOne + " " + letterTwo  + letterThree + " " + numberOne + specialOne);
+
 
 
     }

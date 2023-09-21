@@ -18,6 +18,11 @@ public class RelationalOperatorExample {
         System.out.println(6>=6); //true
         System.out.println(10==10); //true
         System.out.println(12!=12); //false
+        System.out.println(a == b); //  false
+
+        System.out.println('f' == 'g'); // false - here we are comparing the ASCII table numbers of the characters
+        System.out.println('f' == 'f');
+
 
 
 

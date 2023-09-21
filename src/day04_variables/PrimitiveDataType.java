@@ -20,7 +20,8 @@ public class PrimitiveDataType {
         int adressNumber = 234235453;
 
         long bigNumber;
-        bigNumber = 648576483695876L; // with long you have to use this syntax L/l in the end
+        bigNumber = 648576483695876L; // with long you have to use this syntax L/l in the end the value is int type, because it is too big for int; adding L to the number, tells the compiler it is a Long number
+
 
         // long year ; even if you have a Different data type , you can not use the same variable name
     }
