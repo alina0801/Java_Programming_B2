@@ -26,9 +26,15 @@ public class UpdateVariable {
         System.out.println();
 
 
-        count *=2; // count = count * 2 ; ---> -5*2; ----> count = -10;
+        count *= 2;  // count = count * 2; -- > count = -5 * 2; -- > count = -10;
+        System.out.println(count);
 
-        count/=3; // count/3;
+        count /= 3; // count = count / 3; --- > count  = -10 / 3; --- > count = -3;
+        System.out.println(count);
+
+
+        count %= 2; // count = count % 2; --- > count = -3 % 2;  --- >  count = -1
+        System.out.println(count);
 
 
     }
