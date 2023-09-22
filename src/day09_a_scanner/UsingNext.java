@@ -1,4 +1,4 @@
-package day_09_a_scanner;
+package day09_a_scanner;
 import java.util.Scanner;
 
 public class UsingNext {

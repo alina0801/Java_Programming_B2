@@ -1,6 +1,5 @@
-package day_09_a_scanner;
+package day09_a_scanner;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class YourInfo {
