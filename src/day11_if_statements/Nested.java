@@ -1,6 +1,6 @@
 package day11_if_statements;
 
-public class NestedExample {
+/*public class NestedExample {
 
     public static void main(String[] args) {
         boolean a = false;
@@ -39,6 +39,8 @@ public class NestedExample {
 
     }
 }
+
+ */
 
 
 
