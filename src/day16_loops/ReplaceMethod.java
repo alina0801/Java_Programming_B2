@@ -32,31 +32,10 @@ public class ReplaceMethod {
 
         msg = msg.replaceFirst("Saturday", "Thursday");
         System.out.println(msg);
-
-
-
-
     }
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
