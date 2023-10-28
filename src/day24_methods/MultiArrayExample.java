@@ -3,7 +3,7 @@ package day24_methods;
 import java.util.Arrays;
 
 public class MultiArrayExample {
-    public class MultiArrayExample {
+
         public static void main(String[] args) {
             int [] nums1 = { 5, 10, 20, 10};        // 4
             int [] nums2 = {5, 10, 100, 39, 19};    // 5
