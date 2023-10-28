@@ -18,6 +18,11 @@ public class ShoppingReciept {
         System.out.println("-------------------------\n");
         System.out.println("*******THANK YOU********");
 
+          /*
+        System.out.println(); prints an empty lines between the code
+        \n also goes to the next line
+         */
+
 
 
 
