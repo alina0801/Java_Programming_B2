@@ -25,7 +25,7 @@ public class AddAndRemove {
         System.out.println(str);
         System.out.println(list);
 
-        boolean b1 = list.remove("mouse"); // remove(Object); removes it at first MATCH. If there is match it returns TRUE, if not, it returns FALLSE
+        boolean b1 = list.remove("mouse"); // remove(Object); removes it at first MATCH. If there is match it returns TRUE, if not, it returns FALSE
         System.out.println(b1);
         System.out.println(list); //[screen, keyboard, desk]
 
