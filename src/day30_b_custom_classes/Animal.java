@@ -6,7 +6,7 @@ public class Animal {
     long population;
 
 
-    // If you right click > generate > click OK
+    // If you right click > generate > to string --> click OK
     /*
     @Override
     public String toString() {
