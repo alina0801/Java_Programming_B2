@@ -36,6 +36,7 @@ this.name = name;
     //create a method that say name is going into meeting
 
     public void toMeeting() {
+
         System.out.println(name + " is going into meeting.");
     }
 
