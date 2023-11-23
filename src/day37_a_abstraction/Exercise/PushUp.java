@@ -10,7 +10,7 @@ public class PushUp extends Exercise {
         System.out.println("Doing push up on the floor");
     }
 
-    @Override
+    @Override    // annotation
     public int caloriesBurned(int min) {
         return min * 2;
     }
