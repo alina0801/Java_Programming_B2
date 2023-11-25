@@ -2,6 +2,7 @@ package day38_a_abstraction_interface.interface_methods;
 
 public class MacBookPro implements Mac{
     public void turnOn() {
+
         System.out.println("Macbook is turning on");
     }
 }
@@ -17,7 +18,7 @@ class Runner {
         System.out.println(MacBookPro.OS);
         // You can do this, meaning you can call interface public static final variable
         // with the class name which implements that interface.
-        // But it is NOT GOOD PRACTIVE
+        // But it is NOT GOOD PRACTICE
         // If those variables belongs to interface, use the interface name to call them.
 
         System.out.println();

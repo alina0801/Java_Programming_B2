@@ -14,7 +14,7 @@ public interface Mac {
     // A: yes, there 2 options.
 
 
-    //Option 1: is "public static" method
+    //Option 1: is "public static" method , doesn't get inherited
     public static void company(){
         System.out.println("Apple");
         System.out.println("HQ is in LA");
@@ -23,7 +23,7 @@ public interface Mac {
 
 
     //Option 2: is "public default" method
-    // NOTE: the "default" here is NOT the access modifier "default"
+    // NOTE: the "default" here is NOT the access modifier "default", get inherited
     public default void facetime() {
         System.out.println("Opening facetime");
         System.out.println("Calling facetime");
